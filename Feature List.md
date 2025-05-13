@@ -1,0 +1,64 @@
+- File Strategy
+    - Move this notes page to the project repo
+    - Migrate project to C/Repos
+    - Initiatize GIT repo
+    - upload to GitHub
+- Gameplay
+    - Take on increasing numbers of enemies in waves
+- Player
+    - Weapons
+        -Gatling Gun
+            - Slow down after trigger release (i.e. don't stop on a dime, spin down)
+        - Projectiles
+            - Fix Mesh
+            - Apply Muzzle Flash
+                - Should be particle system OR random flashed at ejection point
+            - Add weight
+        - Integrate other weapons
+- Controls
+    - Camera
+        -look right (swing right 90degrees while holding joysting in right direction)
+        -look left
+        -look up
+        -zoom
+- Enemies
+    - Movement
+        - Run towards player
+        - Stop periodically to fire
+        - Stop at player and fire 
+    - Weapons
+        - Pistol
+            - Fix animation to loop smoothly
+        - AK or rifle
+            - Get mesh
+            - Get animation
+        - RPG
+            - Get mesh
+            - Get animation
+            - logic to randomly give to x number of enemies on x wave
+- Damage systems
+    - Player to Enemy
+    - Enemy to Player
+- UI
+    - Crosshair
+        - Move up and down with barrel
+    - Start Screen
+        - Start
+        - Options
+        - Credits
+        - Exit
+    - HUD
+        - Gun health (left and Right)
+        - Countdown Timer
+
+- Bugs
+    - When the enemy is hit, it falls down, but the collosion capsule stays in place until its time to live expires (3 secs), this blocks projectiles, and extends the time to live each time the capsule is hit
+    - Similar to the other bug, the capsule still gets hit and counts as a kill 
+
+
+
+- Plot
+    - Level 1 - Desert
+        You start in the desert with a low tech gun. You are protecting a group geochemical scientists secmicly scanning for presious minerals underground on a hostile planet. You have to fend off increasing waves of grunt natives on the surface while the scientists down below do their job. Should take a few minutes. Hopefully none of those worms show up. 
+    - Level 2
+        You have a new weapon in a new place
